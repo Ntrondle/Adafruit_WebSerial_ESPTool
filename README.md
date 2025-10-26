@@ -1,3 +1,10 @@
+# ⚠️ **Forked Repository Notice**
+
+**This is a forked version of the Adafruit WebSerial ESPTool, maintained to preserve compatibility with ESP32-S2 chips.**  
+While it retains full functionality for other ESP devices, the primary goal of this fork is to ensure continued support for ESP32-S2 boards that may face compatibility issues with newer versions of the Espressif `esptool-js` backend.
+
+---
+
 # Adafruit WebSerial ESPTool
 
 Web tool to install firmware on ESP devices via the browser using WebSerial.
@@ -15,7 +22,7 @@ Web tool to install firmware on ESP devices via the browser using WebSerial.
 
 ## Origin
 
-This project was originally written by [Melissa LeBlanc-Williams](https://github.com/makermelissa). [Nabu Casa](https://www.nabucasa.com) ported the code over to TypeScript and in March 2022 took over maintenance from Adafruit. In July 2022, the Nabucasa stopped maintaining the project in favor of an official, but very early release of Espressif's [esptool-js](https://github.com/espressif/esptool-js/). Due to the instability of the tool, Adafruit updated their fork with Nabucasa's changes in November 2022 and took over maintenance once again.
+This project was originally written by [Melissa LeBlanc-Williams](https://github.com/makermelissa). [Nabu Casa](https://www.nabucasa.com) ported the code over to TypeScript and in March 2022 took over maintenance from Adafruit. In July 2022, Nabucasa stopped maintaining the project in favor of an official, but very early release of Espressif's [esptool-js](https://github.com/espressif/esptool-js/). Due to the instability of the tool, Adafruit updated their fork with Nabucasa's changes in November 2022 and took over maintenance once again.
 
 In December 2024, after the official Espressif tool had become more stable, the tool was once again updated to use Espressif's [esptool-js](https://github.com/espressif/esptool-js/) as the backend while maintaining the familiar frontend of the original tool. This allows for retaining a familiar interface, which is also used in the guides, to remain in place while also keeping current on the latest board releases.
 
